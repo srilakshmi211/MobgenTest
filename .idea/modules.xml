@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QAInterview.iml" filepath="$PROJECT_DIR$/.idea/modules/QAInterview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QAInterview_main.iml" filepath="$PROJECT_DIR$/.idea/modules/QAInterview_main.iml" group="QAInterview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QAInterview_test.iml" filepath="$PROJECT_DIR$/.idea/modules/QAInterview_test.iml" group="QAInterview" />
+    </modules>
+  </component>
+</project>

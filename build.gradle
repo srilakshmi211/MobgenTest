@@ -1,0 +1,24 @@
+group 'com.mobgen'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+test {
+    useTestNG{
+        suites "src/test/testng.xml"
+    }
+
+}
+
+dependencies {
+    compile 'org.testng:testng:6.10'
+    compile 'io.appium:java-client:5.0.0-BETA3'
+    compile 'org.slf4j:slf4j-simple:1.6.1'
+}

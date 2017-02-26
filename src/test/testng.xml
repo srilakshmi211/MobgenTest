@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MobgenTestSuite" >
+    <test name="System" >
+        <classes>
+            <class name="com.mobgen.test.LoginPageTest"/>
+            <class name="com.mobgen.test.PageOneTest" />
+            <class name="com.mobgen.test.PageTwoTest" />
+        </classes>
+    </test>
+
+</suite>
